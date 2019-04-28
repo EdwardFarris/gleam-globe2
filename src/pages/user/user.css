@@ -1,0 +1,42 @@
+.userImg {
+    background-image: url("../../components/images/userpage.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    width: 100%;
+    
+}
+.imagecard{
+    /* background-image: url("../../components/images/person.jpg");
+     */
+     height: 70%;
+     filter: none-blur;
+     
+
+}
+#backgroundimage{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    z-index: 0;
+}
+
+#contentCard{
+    background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  /* color: white;
+  font-weight: bold; */
+  /* border: 3px solid #f1f1f1; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 0px;
+  text-align: center;
+}

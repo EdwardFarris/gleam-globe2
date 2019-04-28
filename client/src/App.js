@@ -12,7 +12,7 @@ import "./App.css";
 // import wastereduction from "./components/images/earthmonth.png";
 import Eventmap from './pages/Map/eventmap';
 import CreateEvent from './pages/createEvent/EventFormContainer';
-
+import Aboutus from './pages/aboutus/aboutus';
 
 
 class App extends Component {
@@ -35,6 +35,7 @@ class App extends Component {
                 <Route exact path="/wastereduction" component={Wastereduction} />
                 <Route exact path="/events/:id" component={Newevent} />
                 <Route exact path="/createevent" component={CreateEvent} />
+                <Route exact path="/aboutus" component={Aboutus} />
               </Switch>
             </div>
           </div>

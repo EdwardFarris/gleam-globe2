@@ -11,7 +11,9 @@ import '../../components/calendar/calendar.css';
 export const Volunteer = () => {
     return (   
         <div id="backgroundimage1" className="overlay volunteerImg">
-            
+                <h1>Join a cleanup</h1>
+           
+           <h3>Upcoming Cleanup Events</h3>
             
             <Card cardImage="volunteerImg">
              <Calendar />

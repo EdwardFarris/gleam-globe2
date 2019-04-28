@@ -1,5 +1,5 @@
-.contactImg {
-    background-image: url("../../components/images/contact.jpg");
+.userImg {
+    background-image: url("../../components/images/userpage.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -15,7 +15,7 @@
      
 
 }
-#backgroundimage4{
+#backgroundimage{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -40,36 +40,7 @@
   padding: 0px;
   text-align: center;
 }
-#addy{
-    font-size: 20px;
+h8,h9,h7 {
     color: black;
-    background-color: rgb(181, 194, 177);
-    text-shadow: none;
-    margin-top: 2rem;
-    margin-right: 2%;
-    margin-left: 2%;
-    font-family: 'Vidaloka', serif;
-}
-#addy:hover{
-    filter: opacity(.8);
-    transform: scale(1.1);
-}
-#subject{
-    height: 200px;
-    width: 100%;
-   
-}
-h1,h4{
-
-    color:black;
-    text-shadow: rgb(255, 255, 255)
-   
-}
-#form{
-    text-align: left;
-    
-}
-#submit{
-    text-align: center;
-    
+    background-color: olive
 }

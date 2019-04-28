@@ -1,16 +1,14 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-// import logo from './logo.svg';
 import Mainpage from './pages/Mainpage/main';
 import Volunteer from './pages/volunteer/volunteer';
 import Contact from './pages/contact/contact';
 import Wastereduction from './pages/wastereduction/waste';
 import Newevent from './components/Newevent/index';
-// import Calendar from "./components/calendar/Calendar";
 import "./App.css";
 import Eventmap from './pages/Map/eventmap';
 import CreateEvent from './pages/createEvent/EventFormContainer';
-import Aboutus from './pages/about us/aboutus';
+import Aboutus from './pages/aboutus/aboutus';
 
 
 
@@ -29,12 +27,15 @@ class App extends Component {
               <Switch>
                 <Route exact path="/" component={Mainpage} />
                 <Route exact path="/contact" component={Contact} />
-                <Route exact path="/map" component={Eventmap} />
                 <Route exact path="/wastereduction" component={Wastereduction} />
                 <Route exact path="/aboutus" component={Aboutus} />
                 <Route exact path="/volunteer" component={Volunteer} />
+                <Route exact path="/map" component={Eventmap} />
                 <Route exact path="/events/:id" component={Newevent} />
                 <Route exact path="/createevent" component={CreateEvent} />
+
+      
+
               </Switch>
             </div>
           </div>

@@ -1,4 +1,4 @@
-  .imagecard{
+.imagecard{
     background-size: auto;
     background-color: #fff;
     opacity: 0.5;
@@ -9,7 +9,7 @@
     min-height: 90vh;
 }
 .cardtext{
-    font-size: 30px;
+    font-size: 20px;
     color: black;
     text-shadow: none;
     background-color: black; 
@@ -17,4 +17,3 @@
     display: flex;
     justify-content: space-evenly;
 }
-

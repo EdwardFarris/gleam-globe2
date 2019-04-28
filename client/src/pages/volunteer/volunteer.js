@@ -7,6 +7,8 @@ import Card from "../../components/card/card";
 import Calendar from '../../components/calendar/Calendar';
 import '../../components/calendar/calendar.css';
 
+import CreateEvent from "../../components/createEvent/EventFormContainer";
+
 
 export const Volunteer = () => {
     return (   

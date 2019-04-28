@@ -9,7 +9,7 @@ const mapStyles = {
   }
 };
 
-class CurrentLocation extends React.Component {
+export class CurrentLocation extends React.Component {
     constructor(props) {
         super(props);
     

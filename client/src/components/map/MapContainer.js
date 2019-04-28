@@ -53,11 +53,19 @@ export class MapContainer extends Component {
           onClick={this.onMarkerClick} name={'Current Location.'} />
         <Marker
           onClick={this.onMarkerClick} name={'Title.'} position={{ lat: 33.349228, lng: -111.796241 }} image={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT66lw7_QqeRs0bf3UH_QFEblAwV0vpZatBgCds1mflDjdUGfGR'} address={'123 Fake St'} city={'Phoenix'} state={'AZ'} date={'05/09/2019'} time={'08:00'}/>
+<<<<<<< HEAD
+        {/* {this.state.event.map( Tevent => (
+            <Marker 
+            key={Tevent.id}
+            position={{ lat: {Tevent.lat}, lng: {Tevent.lng} }}
+            date={Tevent.date}
+=======
         {/*{this.state.event.map( Tevent => (
             <Marker 
             key={events.id}
             position={{ lat: {events.lat}, lng: {events.lng} }}
             date={events.date}
+>>>>>>> 02d2e16a07eb9aca8edec8f913274641d925a3fb
             
             />
           ))}/> */}
@@ -91,6 +99,10 @@ export class MapContainer extends Component {
     }
 
 export default GoogleApiWrapper({
+<<<<<<< HEAD
+          apiKey: (process.env.REACT_APP_API_KEY_YT)
+=======
           apiKey: ('AIzaSyDnAuq2-bxvVO1GcU8sBPN5DzFyW2XeDGM')
+>>>>>>> 02d2e16a07eb9aca8edec8f913274641d925a3fb
     })(MapContainer);
     

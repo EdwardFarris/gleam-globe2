@@ -7,14 +7,30 @@ import Card from "../../components/card/card";
 import Calendar from '../../components/calendar/Calendar';
 import '../../components/calendar/calendar.css';
 
+import CreateEvent from "../../components/createEvent/EventFormContainer";
+
 
 export const Volunteer = () => {
     return (   
         <div id="backgroundimage1" className="overlay volunteerImg">
-            
+
+            <h1>Join a cleanup</h1>
+           
+            <h3>Upcoming Cleanup Events</h3>
+
+            <Card cardImage="volunteerImg">
+            <Calendar />
+             <h2>Register for a trash pickup. Help our community!</h2>
+             <CreateEvent />
+
+                <h1>Join a cleanup</h1>
+           
+           <h3>Upcoming Cleanup Events</h3>
+
             
             <Card cardImage="volunteerImg">
              <Calendar />
+
             </Card>
         </div>
     );

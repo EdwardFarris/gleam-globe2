@@ -1,11 +1,43 @@
-.imagecard{
-    /* background-image: "volunteer.jpg"; */
+
+  .imagecard{
     background-size: auto;
     background-color: #fff;
     opacity: 0.5;
+    transition: all .8s;
+}
+.cardBackground {
+    box-shadow: 0 0 25px silver;
+    min-height: 90vh;
+}
+.cardtext{
+    font-size: 30px;
+    color: black;
+    text-shadow: none;
+    background-color: black; 
+    filter:opacity(.5);
+    display: flex;
+    justify-content: space-evenly;
 }
 
-.cardBackground {
-    box-shadow: 0 0 15px silver;
-    min-height: 70vh;
+
+.imagecard{
+    background-size: auto;
+    background-color: #fff;
+    opacity: 0.5;
+    transition: all .8s;
 }
+.cardBackground {
+    box-shadow: 0 0 25px silver;
+    min-height: 90vh;
+}
+
+.cardtext{
+    font-size: 30px;
+    color: black;
+    text-shadow: none;
+    background-color: black; 
+    filter:opacity(.5);
+    display: flex;
+    justify-content: space-evenly;
+}
+

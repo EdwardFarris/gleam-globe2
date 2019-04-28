@@ -9,11 +9,7 @@ const mapStyles = {
   }
 };
 
-<<<<<<< HEAD
 export class CurrentLocation extends React.Component {
-=======
-class CurrentLocation extends React.Component {
->>>>>>> 02d2e16a07eb9aca8edec8f913274641d925a3fb
     constructor(props) {
         super(props);
     

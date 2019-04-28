@@ -6,7 +6,6 @@ import contactImg from "../../components/images/contact.jpg";
 import Card from "../../components/card/card";
 
 export const Contact = () => {
-<<<<<<< HEAD
   return (
     <React.Fragment>
    
@@ -68,17 +67,4 @@ export default Contact;
 //       </Card>
 //       </div>
 //     </React.Fragment>
-=======
-    return (
-        <React.Fragment>
-          <div id='backgroundimage4' className="overlay"  style={{backgroundImage:`url(${contactImg})`}}></div>
-          <div id="contentCard"><Card cardImage="contactImg"/></div>
-          
-        </React.Fragment>
-    );
-  
-};
-
-export default Contact; 
->>>>>>> 02d2e16a07eb9aca8edec8f913274641d925a3fb
 

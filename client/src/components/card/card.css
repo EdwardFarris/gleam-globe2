@@ -1,4 +1,3 @@
-<<<<<<< HEAD
   .imagecard{
     background-size: auto;
     background-color: #fff;
@@ -19,16 +18,3 @@
     justify-content: space-evenly;
 }
 
-=======
-.imagecard{
-    /* background-image: "volunteer.jpg"; */
-    background-size: auto;
-    background-color: #fff;
-    opacity: 0.5;
-}
-
-.cardBackground {
-    box-shadow: 0 0 15px silver;
-    min-height: 70vh;
-}
->>>>>>> 02d2e16a07eb9aca8edec8f913274641d925a3fb

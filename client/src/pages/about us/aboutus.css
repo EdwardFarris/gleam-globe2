@@ -42,5 +42,8 @@
 }
 h8,h9,h7{
     color: black;
-    background-color: olive;
+    background-color: rgb(181, 194, 177);
+}
+h9{
+    font-size: 25px;
 }

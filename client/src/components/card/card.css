@@ -1,4 +1,5 @@
-.imagecard{
+
+  .imagecard{
     background-size: auto;
     background-color: #fff;
     opacity: 0.5;
@@ -17,3 +18,26 @@
     display: flex;
     justify-content: space-evenly;
 }
+
+
+.imagecard{
+    background-size: auto;
+    background-color: #fff;
+    opacity: 0.5;
+    transition: all .8s;
+}
+.cardBackground {
+    box-shadow: 0 0 25px silver;
+    min-height: 90vh;
+}
+
+.cardtext{
+    font-size: 30px;
+    color: black;
+    text-shadow: none;
+    background-color: black; 
+    filter:opacity(.5);
+    display: flex;
+    justify-content: space-evenly;
+}
+

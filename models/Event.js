@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //Setting up database using mySQL
 
 //Table for new clean-up events, will store date of event, 
@@ -23,4 +24,21 @@ module.exports = function(sequelize, Sequelize) {
 	return Event;
 
 } 
+=======
+const mongoose = require("mongoose");
+const Schema = mongoose.Schema;
+
+const eventSchema = new Schema({
+  title: { type: String, required: true },
+  date: { type: String, required: true },
+  start_time: { type: String, required: true },
+  street_address: { type: String, required: true }
+});
+
+const Event = mongoose.model("Event", eventSchema);
+
+module.exports = Event;
+
+
+>>>>>>> 02d2e16a07eb9aca8edec8f913274641d925a3fb
 

@@ -18,7 +18,7 @@ import cando from "../../components/images/whatwecando.jpg";
            <Card
             cardImage="mainImg"
             title='The products of our own creation are purely a reflection of ourselves.'>
-            <h5>Let's Meet Up!<br ></br> We need volunteers!<br ></br>
+            <h5><br></br>Let's Meet Up!<br ></br> We need volunteers!<br ></br>
               Let's clean our future one pound of trash at a time!
             <h6>How to Become one of us</h6>This is the fun part! </h5>
             <div className="flex-container">

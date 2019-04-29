@@ -18,17 +18,16 @@ export const Aboutus = () => {
             <br></br>
             <br></br>
             <br></br>
-            <h7>Contact The Gleam Globe Team!</h7><br></br>
-            <br></br>
-            <h8>348 N Oak Cir<br></br>
+            <h3>Contact The Gleam Globe Team!</h3><br></br>
+            
+            <h8><br></br>348 N Oak Cir<br></br>
             Gilbert, AZ 85233<br></br>
-            United States<br></br>
-            <br></br>
+            United States<br></br><br></br>
             Email us at <a href="mailto:gleamglobe@gmail.com">gleamglobe@gmail.com</a></h8>
            <br></br>
-            <br></br>
-          <h8>About Us:</h8><br></br>
-          <br></br>
+            
+          <h1>About Us:</h1><br></br>
+        
           <h9>Our founders Christine, Viviana, Christian, Justin, and the Adams came together to <br></br>
           form a non profit organization called Gleam Globe to help save the world.<br></br>
                   &nbsp;We here at Gleam Globe wanted to create a space where like-minded people<br></br>

@@ -40,10 +40,25 @@
   padding: 0px;
   text-align: center;
 }
-h8,h9,h7 {
+h8 {
     color: black;
     background-color: rgb(181, 194, 177);
+    height: 14rem;
+    width: 14rem;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    border: 5px solid rgb(163, 168, 167);
+    margin: 5px;
 }
+
+h8:hover {
+    transform: scale(1.1);
+    filter: opacity(.8);
+}
+
 h9,h7{
     font-size: 25px;
+    background-color: rgb(181, 194, 177);
+    color: black;
 }

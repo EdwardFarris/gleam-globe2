@@ -4,7 +4,7 @@ import "../../components/images/Nature.jpg"
 import "./style.css";
 import mainImg from "../../components/images/Nature.jpg";
 import Card from "../../components/card/card";
-import uswaste from "../../components/images/uswaste.png";
+import uswaste from "../../components/images/mountain.jpg";
 import cando from "../../components/images/whatwecando.jpg";
 
 

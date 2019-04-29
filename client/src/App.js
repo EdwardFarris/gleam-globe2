@@ -8,7 +8,7 @@ import Newevent from './components/Newevent/index';
 import "./App.css";
 import Eventmap from './pages/Map/eventmap';
 import CreateEvent from './pages/createEvent/EventFormContainer';
-import Aboutus from './pages/aboutus/aboutus';
+import Aboutus from './pages/about us/aboutus';
 
 
 

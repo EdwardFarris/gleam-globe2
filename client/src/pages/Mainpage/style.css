@@ -5,7 +5,7 @@
     color: black;
     text-shadow: none;
     background-color: transparent;
-    padding: 10px;
+    padding: 5px;
     margin: 10px;
     border: 2px;
     
@@ -63,7 +63,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
-  width: 80%;
+  width: 90%;
   padding: 1%;
   text-align: center;
 }
@@ -76,7 +76,7 @@
     width: 45%;
     background-color: rgb(117, 132, 113);
     height: 300px;
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-left: 2%;
     }
     
@@ -101,7 +101,7 @@
     float: right;
     height: 300px;
     width: 45%;
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-right: 2%;
 
 }
@@ -113,7 +113,7 @@
 
 
 h6 {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     font-family: 'Lobster', cursive;
     padding: 1%;
@@ -125,9 +125,9 @@ h5{
     color: black;
     background-color: rgb(181, 194, 177);
     text-shadow: 10px;
-    margin-top: 1%;
-    margin-right: 2%;
-    margin-left: 2%;
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
     font-family: 'Vidaloka', serif;
     border: 1px;
     border: 5px solid rgb(163, 168, 167);
@@ -143,7 +143,7 @@ h5:hover {
    
 }
 h6 {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     font-family: 'Lobster', cursive;
 }

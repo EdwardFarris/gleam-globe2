@@ -12,6 +12,7 @@ import Aboutus from './pages/aboutus/aboutus';
 
 
 
+
 class App extends Component {
   render() {
     return (
@@ -33,7 +34,7 @@ class App extends Component {
                 <Route exact path="/map" component={Eventmap} />
                 <Route exact path="/events/:id" component={Newevent} />
                 <Route exact path="/createevent" component={CreateEvent} />
-
+                
       
 
               </Switch>

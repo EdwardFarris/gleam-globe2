@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Jumbotron from "../Jumbotron";
-import API from "../../utils/API";
+// import API from "../../utils/API";
 
 class Newevent extends Component {
   state = {

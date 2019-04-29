@@ -4,7 +4,7 @@ import "../../components/images/arizona.jpg";
 import "./volunteer.css";
 import arizonaImg from "../../components/images/arizona.jpg";
 import Card from "../../components/card/card";
-import { Link } from "react-router-dom";
+
 
 export const Volunteer = () => {
   return (

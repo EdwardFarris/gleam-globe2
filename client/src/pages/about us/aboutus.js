@@ -4,7 +4,7 @@ import "../../components/images/userpage.jpg";
 import "./aboutus.css";
 import userImg from "../../components/images/userpage.jpg";
 import Card from "../../components/card/card";
-import { Link } from "react-router-dom";
+
 
 export const Aboutus = () => {
   return (

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 //import axios from 'axios';
 import { Link } from 'react-router-dom';
-import API from "../utils/API";
+import API from "../../utils/API";
 // import { ENAMETOOLONG } from 'constants';
 
 

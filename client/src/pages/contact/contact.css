@@ -1,0 +1,75 @@
+.contactImg {
+    background-image: url("../../components/images/contact.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    width: 100%;
+    
+}
+.imagecard{
+    /* background-image: url("../../components/images/person.jpg");
+     */
+     height: 70%;
+     filter: none-blur;
+     
+
+}
+#backgroundimage4{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    z-index: 0;
+}
+
+#contentCard{
+    background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  /* color: white;
+  font-weight: bold; */
+  /* border: 3px solid #f1f1f1; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 0px;
+  text-align: center;
+}
+#addy{
+    font-size: 20px;
+    color: black;
+    background-color: rgb(181, 194, 177);
+    text-shadow: none;
+    margin-top: 2rem;
+    margin-right: 2%;
+    margin-left: 2%;
+    font-family: 'Vidaloka', serif;
+}
+#addy:hover{
+    filter: opacity(.8);
+    transform: scale(1.1);
+}
+#subject{
+    height: 200px;
+    width: 100%;
+   
+}
+h1,h4{
+
+    color:black;
+    text-shadow: rgb(255, 255, 255)
+   
+}
+#form{
+    text-align: left;
+    
+}
+#submit{
+    text-align: center;
+    
+}

@@ -121,19 +121,19 @@ h6 {
 }
 
 h5{
+    text-align: center;
     font-size: 15px;
     color: black;
     background-color: rgb(181, 194, 177);
-    text-shadow: 10px;
-    margin-top: 5%;
-    margin-right: 10%;
-    margin-left: 10%;
     font-family: 'Vidaloka', serif;
     border: 1px;
     border: 5px solid rgb(163, 168, 167);
-    padding: 1%;
-    margin: 2px;
+    margin: 5px;
     margin-bottom: .1rem;
+    border-radius: 50%;
+    height: 13rem;
+    width: 13rem;
+    display: inline-block;
 }
 
 
@@ -146,4 +146,5 @@ h6 {
     font-size: 20px;
     font-weight: bold;
     font-family: 'Lobster', cursive;
+    text-align: center;
 }

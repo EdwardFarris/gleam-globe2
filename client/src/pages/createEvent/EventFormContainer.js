@@ -12,17 +12,23 @@ import Input from "../../components/EventInput/Input";
 import DeleteBtn from "../../components/DeleteBtn/index";
 
 
+
 class EventFormContainer extends Component {
   state = {
     events: [],
     title: "",
     date: "",
     start_time: "",
-    street_address: ""
+    street_address: "",
+    location: []
   };
 
   componentDidMount() {
     this.loadEvents();
+    API.getEvent(this.props.match.params.id)
+    .then(res => this.setState({ event: res.data }))
+    .catch(err => console.log(err));
+
   }
 
   loadEvents = () => {
@@ -39,6 +45,17 @@ class EventFormContainer extends Component {
       .catch(err => console.log(err));
   };
 
+  getLocation = address => {
+    // geocoder= new google.maps.Geocoder();
+    this.geocoder.geocode({ '{this.state.events.street_address}' : address}, (results, status) => {
+      this.setState({
+        events: {
+          location: [results[0].geometry.location.nb, results[0].geometry.location.ob]
+        }
+      });
+    })
+  }
+
   handleInputChange = event => {
     const { name, value } = event.target;
     this.setState({
@@ -49,11 +66,13 @@ class EventFormContainer extends Component {
   handleFormSubmit = event => {
     event.preventDefault();
     if (this.state.title && this.state.date && this.state.start_time && this.state.street_address) {
+      // this.geocodeAddress(this.searchInputElement.value)
       API.saveEvent({
         title: this.state.title,
         date: this.state.date,
         start_time: this.state.start_time,
         street_address: this.state.street_address
+        // location: this.state.location
       })
         .then(res => this.loadEvents())
         .catch(err => console.log(err));
@@ -110,7 +129,10 @@ class EventFormContainer extends Component {
               title={'Location of Event'}
               value={this.state.events.street_address}
               placeholder={'example: 1365 W Warner Rd (Required)'}
+              // id={'address'}
+              // ref={this.searchInputElement}
               onChange={this.handleInputChange}
+              onChange={this.getlocation}
             />
 
             <Button
@@ -161,4 +183,8 @@ const buttonStyle = {
   margin: '10px 10px 10px 10px'
 }
 
-export default EventFormContainer;
+export default EventFormContainer
+// ({
+//   apiKey: ('AIzaSyDnAuq2-bxvVO1GcU8sBPN5DzFyW2XeDGM')
+// })(EventFormContainer)
+;

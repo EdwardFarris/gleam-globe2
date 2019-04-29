@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+// import API from "../../utils/API"
 
 const mapStyles = {
   map: {
@@ -10,6 +11,10 @@ const mapStyles = {
 };
 
 export class CurrentLocation extends React.Component {
+  state = {
+    event: {}
+  };
+
     constructor(props) {
         super(props);
     
@@ -60,7 +65,24 @@ export class CurrentLocation extends React.Component {
           }
         }
         this.loadMap();
+        // API.getEvent(this.props.match.params.id)
+        // .then(res => this.setState({ event: res.data }))
+        // .catch(err => console.log(err));
       }
+
+      // geocodeAddress() = geocoder => {
+      //   geocoder.geocode({{this.state.event.street_address}: address}, (results, status) => {
+      //     if (status === 'OK') {
+      //       var marker = new google.maps.Marker({
+      //         map: map,
+      //         position: results[].geometry.location
+      //       });
+      //     } else {
+      //       alert('Geocode was not successful for the following reason: ' + status);
+      //     }
+      //   });
+      // }
+
       loadMap() {
         if (this.props && this.props.google) {
           // checks if google is available

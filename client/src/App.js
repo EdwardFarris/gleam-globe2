@@ -34,6 +34,7 @@ class App extends Component {
                 <Route exact path="/wastereduction" component={Wastereduction} />
                 <Route exact path="/events/:id" component={Newevent} />
                 <Route exact path="/createevent" component={CreateEvent} />
+                <Route exact path="/aboutus" component={Aboutus} />
               </Switch>
             </div>
           </div>

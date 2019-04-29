@@ -11,10 +11,10 @@ export const Navbar=() => {
         <Link className="nav-link active navblack container" to="/">Home</Link>
       </li>
       <li className="nav-item">
-        <Link className="nav-link navblack" to="/createevent">Create Event</Link>
+        <Link className="nav-link navblack" to="/createevent">Create Event </Link>
       </li>
       <li className="nav-item">
-        <Link className="nav-link navblack" to="/calendar">Volunteer</Link>
+        <Link className="nav-link navblack" to="/volunteer">Volunteer</Link>
       </li>
       <li className="nav-item">
         <Link className="nav-link navblack" to="/map">Map</Link>
@@ -24,6 +24,12 @@ export const Navbar=() => {
       </li>
       <li className="nav-item">
       <Link className="nav-link navblack" to="/wastereduction">Reduce Waste</Link>
+    </li>
+    <li className="nav-item">
+      <Link className="nav-link navblack" to="/aboutus">About Us</Link>
+    </li>
+    <li className="nav-item">
+      <Link className="nav-link navblack" to="/login">LogIn</Link>
     </li>
     </ul>
    

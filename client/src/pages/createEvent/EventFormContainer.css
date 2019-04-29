@@ -4,3 +4,12 @@
     border: solid black 2px;
     border-radius: 25px;
 }
+.volunteerImg {
+    background-image: url('../../components/images/volunteer.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    width: 100%;
+    
+  }

@@ -8,7 +8,8 @@ import Newevent from './components/Newevent/index';
 import "./App.css";
 import Eventmap from './pages/Map/eventmap';
 import CreateEvent from './pages/createEvent/EventFormContainer';
-import Aboutus from './pages/aboutus/aboutus';
+import Aboutus from './pages/about us/aboutus';
+
 
 
 
@@ -33,7 +34,7 @@ class App extends Component {
                 <Route exact path="/map" component={Eventmap} />
                 <Route exact path="/events/:id" component={Newevent} />
                 <Route exact path="/createevent" component={CreateEvent} />
-
+                
       
 
               </Switch>

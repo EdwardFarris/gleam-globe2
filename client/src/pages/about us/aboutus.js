@@ -29,20 +29,16 @@ export const Aboutus = () => {
             <br></br>
           <h8>About Us:</h8><br></br>
           <br></br>
-          <h9>Our founders Christine, Viviana, Christian, Justin, and the Adams came together <br></br>
-          to form a non profit organization called Gleam Globe to help save the world.<br></br>
-                  &nbsp;We here at Gleam Globe wanted to create a space where like-minded <br></br>
-                  people could come together in a social space to post before and after pictures of<br></br>
-                     their work, create events, and be social while helping to protect the environment. <b></b>
+          <h9>Our founders Christine, Viviana, Christian, Justin, and the Adams came together to <br></br>
+          form a non profit organization called Gleam Globe to help save the world.<br></br>
+                  &nbsp;We here at Gleam Globe wanted to create a space where like-minded people<br></br>
+                   could come together in a social space to post before and after pictures of<br></br>
+                     their work, create events, and be social while helping to protect the environment.<br></br>
                       </h9>
             </Card>
         </div>
       </div>
-
     </React.Fragment>
   );
-
 };
-
 export default Aboutus;
-

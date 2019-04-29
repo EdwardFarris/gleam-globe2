@@ -8,7 +8,9 @@
     
 }
 .imagecard{
-     height: 80%;
+    /* background-image: url("../../components/images/person.jpg");
+     */
+     height: 70%;
      filter: none-blur;
      
 
@@ -38,10 +40,10 @@
   padding: 0px;
   text-align: center;
 }
-h8,h9,h7{
+h8,h9,h7 {
     color: black;
     background-color: rgb(181, 194, 177);
 }
-h9{
+h9,h7{
     font-size: 25px;
 }

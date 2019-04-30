@@ -28,9 +28,6 @@ export const Navbar=() => {
     <li className="nav-item">
       <Link className="nav-link navblack" to="/aboutus">About Us</Link>
     </li>
-    <li className="nav-item">
-      <Link className="nav-link navblack" to="/login">LogIn</Link>
-    </li>
     </ul>
    
   

@@ -2,7 +2,7 @@
   "name": "gleamglobe",
   "version": "1.0.0",
   "private": true,
-  "proxy": "http://localhost:3001/",
+  
   "dependencies": {
     "axios": "^0.18.0",
     "dotenv": "^7.0.0",

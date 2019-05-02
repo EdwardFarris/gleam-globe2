@@ -1,0 +1,30 @@
+#navbackground{
+opacity: 0.9;
+}
+
+.navblack{
+   color: #000;
+   font-family: 'Prata', serif;
+   font-size: .75pc;
+   
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+    
+  }
+  .gleam{
+     color:black;
+     text-align: left;
+     letter-spacing: 3px;
+     font-size: 40px;
+     position: center!important;
+  }
+ /* .btn{
+    text-align: left;
+    font-size: 25px;
+
+ } */

@@ -1,6 +1,5 @@
 // import React from "./node_modules/react";
 import React from "react";
-import "../../components/navbar/navbar";
 import "../../components/images/earth.jpg";
 import "./map.css";
 import mapImg from "../../components/images/earth.jpg";

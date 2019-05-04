@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import API from "../../utils/API";
 // import { ENAMETOOLONG } from 'constants';
 import "./signin.css";
+import "./signInForm";
 
 
 
@@ -125,7 +126,7 @@ render() {
         </div> */}
 
         <div className="FormField">
-          <button className="FormField__Button mr-20" onClick={this.handleSubmit}>Sign Up</button> <Link to="/SignInForm" className="FormField__Link">I'm already member</Link>
+          <button className="FormField__Button mr-20" onClick={this.handleSubmit}>Sign Up</button> <Link to="./SignInForm" className="FormField__Link"><br></br><br></br>I'm already member</Link>
         </div>
       </form>
     </div>

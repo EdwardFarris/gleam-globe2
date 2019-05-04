@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import API from "../utils/API";
+import API from "../../utils/API";
 import "./signin.css";
 
 
@@ -81,7 +81,7 @@ class SignInForm extends Component {
          </div>
 
          <div className="FormField">
-           <button className="FormField__Button mr-20">Sign In</button> <Link to="/Mainpage/main" className="FormField__Link">Home Page</Link>
+           <button className="FormField__Button mr-20">Sign In</button> <Link to="/" className="FormField__Link">Home Page</Link>
          </div>
        </form>
      </div>

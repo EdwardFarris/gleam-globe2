@@ -2,9 +2,11 @@
     background-image: url("../../components/images/signup.jpg");
     background-size: cover;
    min-height: 100vh;
+   text-align: center
+   
 }
-.FormField__Label, FormField__Input{
-    font-size: 30px;
-    text-align:center;
-    
+.FormField__Label {
+    font-size: 40px;
+    margin-top: 2%;
+   
 }

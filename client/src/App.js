@@ -9,7 +9,8 @@ import "./App.css";
 import Eventmap from './pages/Map/eventmap';
 import CreateEvent from './pages/createEvent/EventFormContainer';
 import Aboutus from './pages/about us/aboutus';
-import SignIn from './pages/sign-in/signUpForm';
+import SignUp from './pages/sign-in/signUpForm';
+
 
 
 
@@ -34,7 +35,7 @@ class App extends Component {
                 <Route exact path="/map" component={Eventmap} />
                 <Route exact path="/events/:id" component={Newevent} />
                 <Route exact path="/createevent" component={CreateEvent} />
-                <Route exact path="/login" component={SignIn} />
+                <Route exact path="/login" component={SignUp} />
 
       
 

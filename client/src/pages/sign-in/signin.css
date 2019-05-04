@@ -1,0 +1,10 @@
+.FormCenter{
+    background-image: url("../../components/images/signup.jpg");
+    background-size: cover;
+   min-height: 100vh;
+}
+.FormField__Label, FormField__Input{
+    font-size: 30px;
+    text-align:center;
+    
+}

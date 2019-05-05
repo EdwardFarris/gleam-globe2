@@ -1,10 +1,21 @@
-import React from "react";
+import React, { Component } from "react";
+import PropTypes from "prop-types";
+import { connect } from "react-redux";
+import { logoutUser } from "../../actions/authActions";
 import "./navbar.css";
 import { Link } from "react-router-dom";
 
+class Navbar extends Component {
+  onLogoutClick = e => {
+    e.preventDefault();
+    this.props.logoutUser();
+  };
 
-export const Navbar=() => {
-  return (<div>
+  render() {
+    const { user } = this.props.auth;
+
+  return (
+    <div>
     <Link className="gleam" to="/">Gleam Globe</Link>
     <ul id="navbackground" className="nav justify-content-end">
     <li className="nav-item">
@@ -29,7 +40,7 @@ export const Navbar=() => {
       <Link className="nav-link navblack" to="/aboutus">About Us</Link>
     </li>
     <li className="nav-item">
-      <Link className="nav-link navblack" to="/login">LogIn</Link>
+      <Link className="nav-link navblack" onClick={this.onLogoutClick}>Signout</Link>
     </li>
     </ul>
    
@@ -37,4 +48,18 @@ export const Navbar=() => {
   </div>
   )
 }
-export default Navbar; 
+
+}
+Navbar.propTypes = {
+  logoutUser: PropTypes.func.isRequired,
+  auth: PropTypes.object.isRequired
+};
+
+const mapStateToProps = state => ({
+  auth: state.auth
+});
+
+export default connect(
+  mapStateToProps,
+  { logoutUser }
+)(Navbar);

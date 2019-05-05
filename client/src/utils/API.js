@@ -18,16 +18,16 @@ export default {
     console.log("API.js", eventData);
     return axios.post("/api/events", eventData);
   },
-  //API calls from Justin for sign-in
-  addNewUser: function (user) {
-    return axios.post("/api/users/", user);
-  },
-  getAllUsers: function (user) {
-    return axios.get("/api/users/?" + Object.keys(user).map(
-      (key) => {
-        return key + "=" + user[key];
-      }
-    ).join("&"));
-  }
+  // //API calls from Justin for sign-in
+  // addNewUser: function (user) {
+  //   return axios.post("/api/users/", user);
+  // },
+  // getAllUsers: function (user) {
+  //   return axios.get("/api/users/?" + Object.keys(user).map(
+  //     (key) => {
+  //       return key + "=" + user[key];
+  //     }
+  //   ).join("&"));
+  // }
 };
   

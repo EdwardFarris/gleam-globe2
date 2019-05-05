@@ -43,8 +43,6 @@ class Navbar extends Component {
       <Link className="nav-link navblack" onClick={this.onLogoutClick}>Signout</Link>
     </li>
     </ul>
-   
-  
   </div>
   )
 }

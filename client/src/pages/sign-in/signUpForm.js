@@ -126,7 +126,7 @@ render() {
         </div> */}
 
         <div className="FormField">
-          <button className="FormField__Button mr-20" onClick={this.handleSubmit}>Sign Up</button> <Link to="./SignInForm" className="FormField__Link"><br></br><br></br>I'm already member</Link>
+          <button className="FormField__Button mr-20" onClick={this.handleSubmit}>Sign Up</button> <Link to="/Signin" className="FormField__Link"><br></br><br></br>I'm already member</Link>
         </div>
       </form>
     </div>

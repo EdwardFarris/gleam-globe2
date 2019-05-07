@@ -1,5 +1,6 @@
 import React from "react";
-import "../../components/images/Nature.jpg"
+import "../../components/navbar/navbar";
+import "../../components/images/Nature.jpg";
 import "./style.css";
 import mainImg from "../../components/images/Nature.jpg";
 import Card from "../../components/card/card";

@@ -28,7 +28,7 @@ export const Aboutus = () => {
             
           <h1>About Us:</h1><br></br>
         
-          <h9>Our founders Christine, Viviana, Christian, Justin, and the Adams came together to <br></br>
+          <h9>Our founders Christine, Viviana, Christian, Justin, and Adam came together to <br></br>
           form a non profit organization called Gleam Globe to help save the world.<br></br>
                   &nbsp;We here at Gleam Globe wanted to create a space where like-minded people<br></br>
                    could come together in a social space to post before and after pictures of<br></br>

@@ -5,6 +5,7 @@ import API from "../../utils/API";
 // import { ENAMETOOLONG } from 'constants';
 import "./signin.css";
 import "./signInForm";
+import Card from '../../components/card/card';
 
 
 
@@ -93,8 +94,11 @@ class SignUpForm extends Component {
 render() {
   return (
     <div className="FormCenter">
+    <Card>
       <form onSubmit={this.handleSubmit} className="FormFields">
         <div className="FormField">
+        <div id="contentCard"></div>
+        <div id="cardtext"></div>
           <label className="FormField__Label" htmlFor="firstname">First Name</label>
           <input type="text" id="name" className="FormField__Input" placeholder="Enter Your first Name" name="firstName" value={this.state.firstName} onChange={this.handleChange} />
         </div>
@@ -129,6 +133,7 @@ render() {
           <button className="FormField__Button mr-20" onClick={this.handleSubmit}>Sign Up</button> <Link to="/Signin" className="FormField__Link"><br></br><br></br>I'm already member</Link>
         </div>
       </form>
+      </Card>
     </div>
   );
 }

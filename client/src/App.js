@@ -37,8 +37,7 @@ class App extends Component {
                 <Route exact path="/createevent" component={CreateEvent} />
                 <Route exact path="/signup" component={SignUp} />
                 <Route exact path="/signin" component={SignIn} />
-                
-      
+               
 
               </Switch>
             </div>

@@ -9,8 +9,13 @@ import "./App.css";
 import Eventmap from './pages/Map/eventmap';
 import CreateEvent from './pages/createEvent/EventFormContainer';
 import Aboutus from './pages/about us/aboutus';
+<<<<<<< HEAD
 import SignIn from './pages/sign-up/signInForm';
 import SignUp from './pages/sign-up/signUpForm';
+=======
+import SignUp from './pages/sign-in/signUpForm';
+import SignIn from './pages/sign-in/signInForm';
+>>>>>>> 98fb53c6385044957669c33c7e5c2426e229a67d
 
 
 
@@ -35,9 +40,16 @@ class App extends Component {
                 <Route exact path="/map" component={Eventmap} />
                 <Route exact path="/events/:id" component={Newevent} />
                 <Route exact path="/createevent" component={CreateEvent} />
+<<<<<<< HEAD
                 <Route exact path="/aboutus" component={Aboutus} />
                 <Route exact path="/login" component={SignIn} />
                 <Route exact path="/login" component={SignUp} />
+=======
+                <Route exact path="/signup" component={SignUp} />
+                <Route exact path="/signin" component={SignIn} />
+               
+
+>>>>>>> 98fb53c6385044957669c33c7e5c2426e229a67d
               </Switch>
             </div>
           </div>

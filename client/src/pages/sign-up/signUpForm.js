@@ -3,7 +3,14 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import API from "../../utils/API";
 // import { ENAMETOOLONG } from 'constants';
+<<<<<<< HEAD:client/src/pages/sign-up/signUpForm.js
 import "./signup.css";
+=======
+import "./signin.css";
+import "./signInForm";
+import Card from '../../components/card/card';
+
+>>>>>>> 98fb53c6385044957669c33c7e5c2426e229a67d:client/src/pages/sign-in/signUpForm.js
 
 
 class SignUpForm extends Component {
@@ -92,8 +99,11 @@ class SignUpForm extends Component {
 render() {
   return (
     <div className="FormCenter">
+    <Card>
       <form onSubmit={this.handleSubmit} className="FormFields">
         <div className="FormField">
+        <div id="contentCard"></div>
+        <div id="cardtext"></div>
           <label className="FormField__Label" htmlFor="firstname">First Name</label>
           <input type="text" id="name" className="FormField__Input" placeholder="Enter Your first Name" name="firstName" value={this.state.firstName} onChange={this.handleChange} />
         </div>
@@ -125,9 +135,10 @@ render() {
         </div> */}
 
         <div className="FormField">
-          <button className="FormField__Button mr-20" onClick={this.handleSubmit}>Sign Up</button> <Link to="/SignInForm" className="FormField__Link">I'm already member</Link>
+          <button className="FormField__Button mr-20" onClick={this.handleSubmit}>Sign Up</button> <Link to="/Signin" className="FormField__Link"><br></br><br></br>I'm already member</Link>
         </div>
       </form>
+      </Card>
     </div>
    
   );

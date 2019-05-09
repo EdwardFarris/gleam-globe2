@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import API from "../../utils/API";
 import "./signin.css";
 import "./signUpForm";
+import Card from '../../components/card/card';
 
 
 // import { ENAMETOOLONG } from 'constants';
@@ -63,9 +64,11 @@ class SignInForm extends Component {
  render() {
    return (
      <div className="FormCenter">
+     <Card>
        <form onSubmit={this.handleSubmit} className="FormFields">
-
-
+       <div id="contentCard"></div>
+       <div id="imagecard"></div>
+      
          <div className="FormField">
            <label className="FormField__Label" htmlFor="username">username</label>
            <input type="username" id="username" className="FormField__Input" placeholder="Enter your username" name="username" value={this.state.username} onChange={this.handleChange} />
@@ -85,6 +88,9 @@ class SignInForm extends Component {
          <button className="FormField__Button mr-20">Sign In</button> <Link to="/" className="FormField__Link">Home Page</Link>
            </div>
        </form>
+    
+     
+     </Card>
      </div>
    );
  }
